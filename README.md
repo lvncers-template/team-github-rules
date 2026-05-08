@@ -8,33 +8,35 @@
 your-project-root/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   └── default.md          # イシューテンプレート
-│   ├── PULL_REQUEST_TEMPLATE/
-│   │   ├── default.md          # PR テンプレート
-│   │   └── review_template.md  # レビューテンプレート
-│   ├── CODE_OF_CONDUCT.md      # 行動規範
-│   ├── CODEOWNERS              # コードオーナー定義
-│   ├── COMMIT_CONVENTION.md    # コミットメッセージ規約
-│   ├── CONTRIBUTING.md         # コントリビューションガイド
-│   └── SECURITY.md             # セキュリティポリシー
+│   │   └── default.md
+│   └── PULL_REQUEST_TEMPLATE/
+│       ├── default.md
+│       └── review_template.md  # レビューテンプレート
 │
 ├── documents/
 │   ├── adr/                        # 設計判断の記録
 │   │   ├── 0001-use-postgresql.md
 │   │   └── 0002-adopt-graphql.md
+│   ├── guides/
+│   │   └── getting-started.md
 │   ├── API.md                      # API 仕様とエンドポイント
 │   ├── ARCHITECTURE.md             # システム構成・設計思想
+│   ├── COMMIT_CONVENTION.md        # コミットメッセージ規約
 │   ├── DATABASE.md                 # データベース設計書・スキーマ定義書
 │   ├── DESIGN.md                   # 設計ドキュメント
 │   ├── REQUIREMENTS.md             # 要件定義書
 │   └── TECH-STACK.md               # 使用技術スタック
 │
-├── .editorconfig  # エディタ設定
+├── .editorconfig       # エディタ設定
 ├── .gitignore
-├── CHANGELOG.md   # 変更履歴
+├── CHANGELOG.md        # 変更履歴
+├── CODE_OF_CONDUCT.md  # 行動規範
+├── CODEOWNERS          # コードオーナー定義
+├── CONTRIBUTING.md     # コントリビューションガイド
 ├── LICENSE
 ├── README.md
-└── RELEASE.md     # リリースノート
+├── RELEASE.md          # リリースノート
+└── SECURITY.md         # セキュリティポリシー
 ```
 
 ## 作業の流れ
