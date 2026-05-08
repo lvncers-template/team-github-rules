@@ -29,7 +29,7 @@ your-project-root/
 │   ├── DATABASE.md                 # データベース設計書・スキーマ定義書
 │   ├── DESIGN.md                   # 設計ドキュメント
 │   ├── REQUIREMENTS.md             # 要件定義書
-│   └── TECH-STACK.md               # 使用技術スタック
+│   └── TECH_STACK.md               # 使用技術スタック
 │
 ├── .editorconfig       # エディタ設定
 ├── .gitignore
@@ -38,9 +38,14 @@ your-project-root/
 ├── CODEOWNERS          # コードオーナー定義
 ├── CONTRIBUTING.md     # コントリビューションガイド
 ├── LICENSE
+├── MILESTONE.md
+├── PERFORMANCE.md      # パフォーマンスチューニング
 ├── README.md
 ├── RELEASE.md          # リリースノート
-└── SECURITY.md         # セキュリティポリシー
+├── RODEMAP.md          # 中長期ロードマップ
+├── SECURITY.md         # セキュリティポリシー
+├── SETUP.md            # 環境構築手順
+└── TESTING.md          # テスト方針
 ```
 
 ## 作業の流れ
