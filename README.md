@@ -19,6 +19,10 @@ your-project-root/
 │   │   └── 0002-adopt-graphql.md
 │   ├── guides/
 │   │   └── getting-started.md
+│   ├── runbooks/
+│   │   └── incident-response.md    # 障害対応手順書
+│   ├── tutorials/
+│   │   └── quick-start.md
 │   ├── API.md                      # API 仕様とエンドポイント
 │   ├── ARCHITECTURE.md             # システム構成・設計思想
 │   ├── COMMIT_CONVENTION.md        # コミットメッセージ規約
