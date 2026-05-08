@@ -10,11 +10,12 @@ your-project-root/
 │   ├── ISSUE_TEMPLATE/
 │   │   └── default.md          # イシューテンプレート
 │   ├── PULL_REQUEST_TEMPLATE/
-│   │   ├── default.md          # PRテンプレート
+│   │   ├── default.md          # PR テンプレート
 │   │   └── review_template.md  # レビューテンプレート
-│   ├── CONTRIBUTING.md         # コントリビューションガイド
-│   ├── COMMIT_CONVENTION.md    # コミットメッセージ規約
 │   ├── CODE_OF_CONDUCT.md      # 行動規範
+│   ├── CODEOWNERS              # コードオーナー定義
+│   ├── COMMIT_CONVENTION.md    # コミットメッセージ規約
+│   ├── CONTRIBUTING.md         # コントリビューションガイド
 │   └── SECURITY.md             # セキュリティポリシー
 │
 ├── documents/
@@ -23,6 +24,7 @@ your-project-root/
 │   │   └── 0002-adopt-graphql.md
 │   ├── API.md                      # API 仕様とエンドポイント
 │   ├── ARCHITECTURE.md             # システム構成・設計思想
+│   ├── DATABASE.md                 # データベース設計書・スキーマ定義書
 │   ├── DESIGN.md                   # 設計ドキュメント
 │   ├── REQUIREMENTS.md             # 要件定義書
 │   └── TECH-STACK.md               # 使用技術スタック
@@ -31,7 +33,8 @@ your-project-root/
 ├── .gitignore
 ├── CHANGELOG.md   # 変更履歴
 ├── LICENSE
-└── README.md
+├── README.md
+└── RELEASE.md     # リリースノート
 ```
 
 ## 作業の流れ
