@@ -19,9 +19,13 @@ your-project-root/
 │
 ├── documents/
 │   ├── adr/                        # 設計判断の記録
-│   │   └── 0001-use-postgresql.md
+│   │   ├── 0001-use-postgresql.md
+│   │   └── 0002-adopt-graphql.md
+│   ├── API.md                      # API 仕様とエンドポイント
+│   ├── ARCHITECTURE.md             # システム構成・設計思想
+│   ├── DESIGN.md                   # 設計ドキュメント
 │   ├── REQUIREMENTS.md             # 要件定義書
-│   └── ARCHITECTURE.md             # システム構成・設計思想
+│   └── TECH-STACK.md               # 使用技術スタック
 │
 ├── .editorconfig  # エディタ設定
 ├── .gitignore
