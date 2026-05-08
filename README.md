@@ -8,10 +8,12 @@
 your-project-root/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   └── default.md
+│   │   ├── bugfix_report.md
+│   │   └── feature_request.md
 │   └── PULL_REQUEST_TEMPLATE/
-│       ├── default.md
-│       └── review_template.md  # レビューテンプレート
+│       ├── bugfix.md
+│       ├── feature.md
+│       └── review.md           # レビューテンプレート
 │
 ├── documents/
 │   ├── adr/                        # 設計判断の記録

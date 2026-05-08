@@ -1,0 +1,80 @@
+name: Bug report
+description: 不具合の報告
+title: "fix: "
+type: Bug
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: どのような不具合かを簡潔に記載してください。
+      placeholder: 例) MIDI接続が切断されると再接続できない
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 再現できる手順を番号付きで記載してください。
+      placeholder: |
+        1. xxx を開く
+        2. yyy を実行する
+        3. zzz が発生する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作
+      description: 本来どうなるべきかを記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 実際に起きている内容を記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影響範囲
+      description: どの画面・機能に影響するかを記載してください。
+      placeholder: 例) frontend / 設定画面のみ
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 改善案
+      description: 想定される修正方法や改善案があれば記載してください。
+      placeholder: |
+        例)
+        - biome format を CI で自動実行する
+        - lint-staged で commit 時に format を適用する
+
+  - type: input
+    id: env
+    attributes:
+      label: 実行環境（任意）
+      description: OS、ブラウザ、Node.js など
+      placeholder: "macOS 14 / Chrome 131 / Node.js 22"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット（任意）
+      description: エラーログや画像があれば記載してください。
+
+  - type: input
+    id: related
+    attributes:
+      label: 関連Issue/PR（任意）
+      description: 例) #123, #456
+      placeholder: "#123"

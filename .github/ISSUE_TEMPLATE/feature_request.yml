@@ -1,0 +1,63 @@
+name: Feature request
+description: 新機能・機能改善の提案
+title: "feat: "
+type: Feature
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景（なぜ必要？）
+      description: この機能の要望が出た背景や運用状況を書いてください。
+      placeholder: |
+        例)
+        学校ごとに設定内容が異なるため、運用時に設定の切り替えが必要になっている。
+        現在は管理画面から手動で設定を変更して対応している。
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 現状の問題（何が困るのか？）
+      description: 現在の運用で、具体的にどんな不便や課題があるかを書いてください。
+      placeholder: |
+        例)
+        設定変更のたびに複数画面を操作する必要があり、作業時間がかかる。
+        また、設定ミスが発生するリスクもある。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する結果
+      description: 完了時の理想状態を記載してください。
+      placeholder: 例) 1クリックでプリセットを切り替えられる
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件（Acceptance Criteria）
+      description: チェックリスト形式で記載してください。
+      value: |
+        - [ ] 条件1
+        - [ ] 条件2
+    validations:
+      required: true
+
+  - type: input
+    id: related
+    attributes:
+      label: 関連Issue/PR（任意）
+      description: 例) #123, #456
+      placeholder: "#123"
+
+  - type: textarea
+    id: note
+    attributes:
+      label: 補足（任意）
+      description: 参考リンク、スクリーンショット、懸念点などがあれば記載してください。
